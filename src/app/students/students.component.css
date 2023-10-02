@@ -1,0 +1,29 @@
+.table-container {
+  margin: 20px;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff; /* Fondo blanco */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow leve */
+}
+
+.table-container th, .table-container td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.table-container th {
+  background-color: #8710D8;
+}
+
+.table-container tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-container tr:hover {
+  background-color: #e0e0e0;
+}
